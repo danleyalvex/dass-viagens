@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.img-carrosel {
+    object-fit: cover;
+    object-position: 0 60%; 
+    height: 500px;
+}
+
+body {
+    background-color: rgba(136, 0, 255, 0.074);
+}
+
+
+.titulo-carrosel{
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+
+.card-um {
+    border: none;
+}
+
+.card {
+     cursor: pointer;
+     margin-left: .4rem;
+     background-color: rgba(250, 72, 185, 0.142);
+     border: none;
+}
+
+.btn-padrao {
+    background-color: rgb(154, 63, 239);
+    color: #fff;
+}
+
+.btn-padrao:hover{
+    background-color: rgb(35, 9, 60);
+}
+
+.btn-card {
+    background-color: rgb(32, 14, 49);
+    color: #fff;
+}
+
+.btn-card:hover{
+    color: rgb(174, 114, 229);
+}
+
+
+
+/* PAGINA DESTINO */
+
+.card-imagem { 
+    object-fit: cover;
+    /* object-position: 0 80%; */
+    height: 200px;
+}
+
+.cards__destinos {
+   max-width: 18rem;
+}
+
+/* PAGINA PROMOÇÕES */
+
+.card-text1{
+    text-decoration: line-through;
+    color: rgb(169, 5, 5);
+    font-weight: bold;
+}
+
+.card-text0{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(0, 119, 0);
+}
+
+.newsletter {
+    padding: 6rem 0;
+}
+    
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+    .newsletter .content h2 {
+    color: #51003e;
+    margin-bottom: 40px; 
+}
+    .newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+   
+}
+    .newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+}
+    .newsletter .content .btn {
+    min-height: 50px; 
+    
+    background: #ef43ff;
+    color: #fff;
+    font-weight:600;
+}
