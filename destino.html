@@ -11,22 +11,23 @@
     <title>Dass | Destino </title>
 </head>
 <body>
-    <header class="cabecalho ">
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
-            <a class="navbar-brand" href="#">DASS VIAGENS</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-              <ul class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
-                <a class="nav-item nav-link" href="destino.html">Destino</a>
-                <a class="nav-item nav-link" href="promocoes.html">Promoções</a>
-                <a class="nav-item nav-link" href="#">Contato</a>
-              </ul>
-            </div>
-          </nav>
-    </header>
+  <header class="cabecalho ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
+        <a class="navbar-brand" href="index.html"><img src="./assets/imgs/dass.png" alt="logo dass viagens" class="logo"> Viagens</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li><a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(Página atual)</span></a></li>
+            <li><a class="nav-item nav-link" href="destino.html">Destino</a></li>
+            <li><a class="nav-item nav-link" href="promocoes.html">Promoções</a></li>
+            <li><a class="nav-item nav-link" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+
     <main>
       <!-- PAG DE DESTINOS -->
         <section class="destinos container mt-5">
@@ -37,8 +38,6 @@
                 <button type="button" class="btn btn-padrao mr-3">Mais Destinos</button>
             </article>
             <div class="row justify-content-center">
-
-
               <article class="card borda-card cards__destinos col-12 col-md-4 p-0 m-4">
                 <img src="./assets/imgs/placeholder-image.png" class="card-img-top card-imagem " alt="...">
                 <div class="card-body">
@@ -47,7 +46,14 @@
                   <a href="#" class="btn btn-card">Ver destino</a>
                 </div>
               </article>
-            
+              <article class="card borda-card cards__destinos col-12 col-md-4 p-0 m-4">
+                <img src="./assets/imgs/placeholder-image.png" class="card-img-top card-imagem " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Atenas, Grécia</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, in!</p>
+                  <a href="#" class="btn btn-card">Ver destino</a>
+                </div>
+              </article>
               <article class="card borda-card cards__destinos col-12 col-md-4 p-0 m-4">
                 <img src="./assets/imgs/placeholder-image.png" class="card-img-top card-imagem " alt="...">
                 <div class="card-body">
@@ -56,16 +62,6 @@
                   <a href="#" class="btn btn-card">Ver destino</a>
                 </div>
               </article>
-
-              <article class="card borda-card cards__destinos col-12 col-md-4 p-0 m-4">
-                <img src="./assets/imgs/placeholder-image.png" class="card-img-top card-imagem " alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Cancun, Mexico</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, in!</p>
-                  <a href="#" class="btn btn-card">Ver destino</a>
-                </div>
-              </article>
-
               <article class="card borda-card cards__destinos col-12 col-md-4 p-0 m-4">
                 <img src="./assets/imgs/placeholder-image.png" class="card-img-top card-imagem " alt="...">
                 <div class="card-body">
@@ -74,7 +70,6 @@
                   <a href="#" class="btn btn-card">Ver destino</a>
                 </div>
               </article>
-
               <article class="card borda-card cards__destinos col-12 col-md-4 p-0 m-4">
                 <img src="./assets/imgs/placeholder-image.png" class="card-img-top card-imagem " alt="...">
                 <div class="card-body">
@@ -83,7 +78,6 @@
                   <a href="#" class="btn btn-card">Ver destino</a>
                 </div>
               </article>
-
               <article class="card borda-card cards__destinos col-12 col-md-4 p-0 m-4">
                 <img src="./assets/imgs/placeholder-image.png" class="card-img-top card-imagem " alt="...">
                 <div class="card-body">
@@ -92,21 +86,12 @@
                   <a href="#" class="btn btn-card">Ver destino</a>
                 </div>
               </article>
-            
             </div>
-            
         </section>
     </main>
-    <footer class="bg-primary p-3">
-      <p class="text-light m-0 text-center">Contato:<a href="mailto:email@dassviagens.com.br" class="text-light"> email@dassviagens.com.br</a></p>
-    </footer>
-    
-
-
-
-
-
-
+    <footer class="p-3">
+      <p class="text-dark m-0 text-center">&copy;<a href="mailto:email@dassviagens.com.br" class="text-dark"> Dass Viagens</a></p>
+</footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

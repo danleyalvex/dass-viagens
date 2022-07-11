@@ -10,6 +10,12 @@ body {
     background-color: rgba(136, 0, 255, 0.074);
 }
 
+.logo {
+    width: 6rem;
+}
+.logo-principal {
+    max-width: 10rem;
+}
 
 .titulo-carrosel{
     font-family: 'Staatliches', cursive;
@@ -106,3 +112,6 @@ body {
     color: #fff;
     font-weight:600;
 }
+
+/* PAGINA CONTATO */
+
